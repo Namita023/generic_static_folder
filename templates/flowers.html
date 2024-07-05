@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="child1 a">
+            <span class="tab-space"><b>TULIP</b></span><img src="{% static 'images/tulip.jpg'%}" alt="">
+        </div>
+        <div class="child2 a">
+            <span class="space"><h4>LOTUS</h4></span><br><img src="{% static 'images/lotus.jpeg'%}" alt="">
+        </div>
+        <div class="child3 a">
+            <span class="tab-space"><b>MARIGOLD</b></span><img src="{% static 'images/marigold.webp'%}" alt="">
+        </div>
+        <div class="child4 a">
+            <span class="space"><h4>SUNFLOWER</h4></span><br><img src="{% static 'images/sunflower.jpg'%}" alt="">
+        </div>
+        <div class="child5 a">
+            <h4>ROSE</h4><img src="{% static 'images/rose.webp'%}" alt="">
+        </div>
+    </div>
+</body>
+</html>
